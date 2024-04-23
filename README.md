@@ -1,0 +1,1 @@
+# Oracle-Cloud-Infrastructure-2024-Generative-AI-Professional
