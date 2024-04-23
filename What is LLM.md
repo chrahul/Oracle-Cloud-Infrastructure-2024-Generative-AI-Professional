@@ -1,5 +1,4 @@
 
-```markdown
 # Large Language Models (LLMs)
 
 Large Language Models, or LLMs, are sophisticated probabilistic models of text that utilize vast amounts of data to understand and generate human-like language. At their core, LLMs compute probabilities for sequences of
@@ -15,7 +14,6 @@ These models excel not only in predicting words but also in generating coherent 
 in a manner resembling human language production.
 
 
-```markdown
 # LLM Architectures
 
 In this section, I'll be focusing on two major architectures for language models: encoders and decoders. These architectures largely correspond to two different tasks or model capabilities that you may have heard of.
