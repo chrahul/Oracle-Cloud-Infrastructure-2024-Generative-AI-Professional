@@ -30,4 +30,4 @@
 
 - **Future Considerations**:
   - Addressing the dangers of prompt injection requires implementing robust security protocols and safeguards to protect against malicious exploitation.
-  - In the next lesson, the focus will shift to training, another crucial aspect of influencing the behavior of language models.
+ 
