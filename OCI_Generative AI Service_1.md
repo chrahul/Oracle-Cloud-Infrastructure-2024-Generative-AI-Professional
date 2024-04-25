@@ -38,6 +38,9 @@
     - Establishes dedicated clusters with GPUs and exclusive RDMA cluster network.
     - Isolates GPUs allocated for customer tasks from other GPUs.
     - Leverages OCI's industry-leading RDMA supercluster for high throughput and low latency.
+   
+      ![image](https://github.com/chrahul/Oracle-Cloud-Infrastructure-2024-Generative-AI-Professional/assets/14847377/28b0a0d6-0dda-44e5-ab1d-6d96fbcf2a7d)
+
 
 - **Key Characteristics:**
   - Choice of models from Meta and cohere.
