@@ -13,6 +13,11 @@
     - Built to understand, generate, and process human language at scale.
     - Enables various use cases such as text generation, summarization, data extraction, classification, and conversational AI with chatbots.
 
+
+![image](https://github.com/chrahul/Oracle-Cloud-Infrastructure-2024-Generative-AI-Professional/assets/14847377/56cf94e7-781f-42e4-8613-83db840d0c92)
+
+
+
 - **Pre-Trained Foundational Models:**
   - **Generation Models:**
     - Includes command model and command light model from cohere.
