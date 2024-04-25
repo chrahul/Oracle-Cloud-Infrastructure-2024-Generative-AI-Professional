@@ -31,6 +31,9 @@
     - Create embeddings to understand relationships between pieces of text.
     - Useful for semantic searches across languages.
 
+![image](https://github.com/chrahul/Oracle-Cloud-Infrastructure-2024-Generative-AI-Professional/assets/14847377/9938197d-7275-4566-8e1f-0afa07ca3067)
+
+
 - **Fine-Tuning Capability:**
   - **Custom Model Creation:**
     - Utilize fine-tuning to optimize pre-trained models on domain-specific datasets.
