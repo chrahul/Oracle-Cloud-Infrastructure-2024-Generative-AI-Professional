@@ -45,3 +45,40 @@ Oracle Cloud Infrastructure Generative AI is a fully managed service that provid
 - **Key Considerations:**
   - Parameter settings significantly impact model output.
   - Understanding and tuning parameters are essential for controlling model behavior and output.
+ 
+- **Temperature:**
+  - Hyperparameter controlling the randomness of LLM output.
+  - Determines how model selects the next word based on probabilities.
+  - Lower temperature makes the model more deterministic, selecting words with highest probability.
+  - Higher temperature increases randomness, allowing selection of words with lower probabilities, leading to more creative output.
+
+- **Top k and Top p:**
+  - **Top k:**
+    - Instructs the model to pick the next token from the top k tokens based on their probabilities.
+    - Model selects from the highest probability tokens, ignoring the rest.
+  - **Top p:**
+    - Picks tokens whose probabilities sum up to a specified threshold (p).
+    - Excludes tokens with probabilities below the threshold, ensuring selection from the top tokens.
+    - Alternatively, excludes a fixed percentage (1 - p) of tokens with the lowest probabilities.
+
+- **Stop Sequence:**
+  - String that signals the model to stop generating content.
+  - Commonly used punctuation marks like period can serve as stop sequences.
+  - Allows controlling the length and structure of generated text.
+
+- **Penalty Parameters (Frequency and Presence):**
+  - **Frequency Penalty:**
+    - Penalizes tokens based on their frequency of appearance in the preceding text.
+    - Tokens appearing frequently receive higher penalties, reducing their probability of selection.
+  - **Presence Penalty:**
+    - Applies penalty to tokens regardless of frequency.
+    - Tokens appearing at least once before are penalized to promote less repetitive output.
+
+- **Show Likelihood:**
+  - Assigns a likelihood score to each token indicating its probability to follow the current token.
+  - Higher scores indicate higher likelihood of selection for the next token.
+  - Provides insight into the model's decision-making process.
+
+- **Overall Considerations:**
+  - Understanding and tuning these parameters are crucial for controlling model behavior and output.
+  - Selection of parameters influences the creativity, coherence, and repetition in generated text.
