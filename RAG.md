@@ -23,6 +23,12 @@
   - **Transformation**: Chunks transformed into mathematical embeddings, allowing for comparisons.
   - **Retrieval**: System searches indexed embeddings to find relevant chunks based on user query.
   - **Generation**: Selected chunks fed into the generative model to produce a coherent response.
+ 
+  ![image](https://github.com/chrahul/Oracle-Cloud-Infrastructure-2024-Generative-AI-Professional/assets/14847377/59f98ed2-6704-498e-bc66-c6cbb990493b)
+
+
+
+![image](https://github.com/chrahul/Oracle-Cloud-Infrastructure-2024-Generative-AI-Professional/assets/14847377/cf114f55-ac02-47fc-a32a-12b2e18e6e19)
 
 - **Practical Application of RAG**:
   - **Chatbot Scenario**: Incorporates context from conversation history to enhance response accuracy.
