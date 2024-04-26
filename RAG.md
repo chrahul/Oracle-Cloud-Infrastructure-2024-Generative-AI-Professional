@@ -10,6 +10,9 @@
   - **Retriever**: Sources relevant information from a large corpus or database using retrieval techniques.
   - **Ranker**: Evaluates and prioritizes retrieved information based on relevance and usefulness.
   - **Generator**: Crafts human-like text based on the input received, ensuring coherence and relevance.
+ 
+  ![image](https://github.com/chrahul/Oracle-Cloud-Infrastructure-2024-Generative-AI-Professional/assets/14847377/93663051-781d-488a-a429-ac60016b6e2a)
+
 
 - **Implementation of RAG**:
   - **RAG Sequence Model**: Retrieves information for the entire input query at once, synthesizing a holistic response.
