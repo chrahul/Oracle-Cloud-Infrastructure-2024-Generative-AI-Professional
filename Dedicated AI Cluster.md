@@ -1,0 +1,41 @@
+- **Dedicated AI Cluster Unit Types**:
+  - **Large Cohere**: Supports Cohere command base model for hosting or fine-tuning.
+  - **Small Cohere**: Supports Cohere command light model for hosting or fine-tuning.
+  - **Embed Cohere**: Supports Cohere embed model for hosting.
+  - **Llama 2-70**: Supports Llama 2 models, especially Llama2 70-billion chat model for hosting.
+
+- **Unit Size Requirements for Hosting and Fine-Tuning**:
+  - **Text Generation**:
+    - **Cohere Command Model**:
+      - Fine-tuning: Requires two units of large Cohere.
+      - Hosting: Requires a minimum of one unit of large Cohere.
+    - **Cohere Command Light Model**:
+      - Requires two units of small Cohere for fine-tuning.
+      - Hosting: Requires a minimum of one unit of small Cohere.
+    - **Llama 2 70 Billion Chat Model**:
+      - Does not support fine-tuning; requires one unit for hosting.
+    - **Summarization**:
+      - Can use Cohere command for hosting, does not support fine-tuning.
+    - **Embedding**:
+      - Does not support fine-tuning; requires one unit for hosting.
+
+- **Example Scenario**:
+  - **Fine-Tuning Cluster**:
+    - Requires two units of large Cohere.
+    - Used for fine-tuning Cohere command model.
+    - Each cluster active for five hours.
+  - **Hosting Cluster**:
+    - Requires one unit of large Cohere.
+    - Used for hosting fine-tuned models.
+    - Active for the entire month.
+
+- **Pricing Calculation**:
+  - **Fine-Tuning Cost**:
+    - Multiply the number of units (2) by the number of active hours per cluster (5) for each week.
+    - Total fine-tuning cost for the month is the sum of all unit hours (2 units * 5 hours * 4 weeks).
+  - **Hosting Cost**:
+    - Minimum commitment is 744 unit hours for the entire month.
+    - Total hosting cost for the month is 744 unit hours.
+  - **Total Cost**:
+    - Sum of fine-tuning and hosting costs.
+    - Multiply the total unit hours by the price per unit hour for the large Cohere dedicated unit.
