@@ -17,6 +17,9 @@
 - RAG leverages embeddings to retrieve relevant documents or paragraphs from a large corpus and incorporate them into generative models for answering queries.
 - Vector databases automate similarity searches, enabling efficient document retrieval based on user queries.
 
+![image](https://github.com/chrahul/Oracle-Cloud-Infrastructure-2024-Generative-AI-Professional/assets/14847377/692def4f-999b-4816-a435-ef0ef2718b98)
+
+
 **Embedding Models in OCI Generative AI Service:**
 - Supported models from Cohere include `embed-English`, `embed-multilingual`, and `embed-English-lite`.
 - Models convert text into vector embeddings, supporting over 100 languages and enabling semantic search and classification.
